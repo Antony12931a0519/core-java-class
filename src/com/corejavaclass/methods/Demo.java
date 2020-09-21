@@ -31,9 +31,7 @@ public class Demo {
 		System.out.println(a + b);
 		System.out.println("kjljflq");
 		float weight = 34.5f;
-
 		return a + b;
-
 	}
 
 	public static Doctor printDoctorDetails() {
