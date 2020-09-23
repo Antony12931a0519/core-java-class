@@ -54,11 +54,7 @@ public class Doctor {
 	/* (non-Javadoc)
 	 * @see java.lang.Object#toString()
 	 */
-	@Override
-	public String toString() {
-		return "Doctor [name=" + name + "]";
-	}
-
+	
 	public static void main(String[] args) {
 
 		Doctor doctor = new Doctor();
@@ -72,6 +68,15 @@ public class Doctor {
 		 * System.out.println(name); System.out.println(address);
 		 * System.out.println(age);
 		 */
+	}
+
+	/* (non-Javadoc)
+	 * @see java.lang.Object#toString()
+	 */
+	@Override
+	public String toString() {
+		return "Doctor [name=" + name + ", address=" + address + ", age=" + age
+				+ "]";
 	}
 
 }
